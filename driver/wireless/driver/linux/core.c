@@ -7505,7 +7505,7 @@ _mtlk_core_set_wep_key_blocked (struct nic      *nic,
   int               res             = MTLK_ERR_UNKNOWN;
   mtlk_txmm_msg_t   man_msg;
   mtlk_txmm_data_t *man_entry       = NULL;
-  uint16            default_key_idx = nic->slow_ctx->default_key;
+  uint16            default_key_idx = 0; //nic->slow_ctx->default_key;
   UMI_SET_KEY      *umi_key;
 
   man_entry = mtlk_txmm_msg_init_with_empty_data(&man_msg, 

@@ -15,3 +15,4 @@ driver/tools/kconfig/mconf.o
 driver/tools/kconfig/zconf.tab.o
 *\.o
 *\.d
+/.vs

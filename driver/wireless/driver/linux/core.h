@@ -274,8 +274,8 @@ struct nic_slow_ctx {
 
   // 802.11i (security) stuff
   UMI_RSN_IE rsnie;
-  uint8 default_key;
-  uint8 wep_enabled;
+  uint16 default_key;
+  uint16 wep_enabled;
   MIB_WEP_DEF_KEYS wep_keys;
   uint8 wps_in_progress;
 

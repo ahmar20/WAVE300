@@ -43,10 +43,11 @@ immediatly turn down this git.
 ### Clone the OpenWRT development environment
 `mkdir ~/src`  
 `cd ~/src`  
-`git clone https://github.com/openwrt/openwrt.git`  
-It is better to switch to current stable release.  
-`git checkout -f v18.06.1`  
+`git clone https://github.com/openwrt/openwrt.git`
 `cd openwrt`  
+ It is better to switch to current stable release if you are not using SNAPSHOTS for your router.  
+`git checkout -f v18.06.2`  
+  
 
 ### Select target and subtarget
 `make menuconfig`  
